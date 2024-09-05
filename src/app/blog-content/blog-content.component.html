@@ -1,0 +1,268 @@
+<div class="comtainer">
+    <app-nav-bar></app-nav-bar>
+    <div class="container-contet">
+        <div class="row">
+            <div class="col-4">
+                <nav [ngbScrollSpyMenu]="spy" class="h-100 flex-column align-items-stretch pe-4 border-end">
+                    <nav class="nav nav-pills flex-column">
+                        <a role="button" class="nav-link" ngbScrollSpyItem="nested-1">Superando Limitações: Minha Jornada com um Macbook Pro 2009</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a role="button" class="nav-link ms-3 my-1" ngbScrollSpyItem="nested-1-1" parent="nested-1">Para contextualizar</a>
+                            <a role="button" class="nav-link ms-3 my-1" ngbScrollSpyItem="nested-1-2" parent="nested-1">Patch de atualização da comunidade:</a>
+                            <a role="button" class="nav-link ms-3 my-1" ngbScrollSpyItem="nested-1-3" parent="nested-1">MacOS Catalina Patch</a>
+                            <a role="button" class="nav-link ms-3 my-1" ngbScrollSpyItem="nested-1-4" parent="nested-1">OpenCore LegacyPatchs</a>
+                            <a role="button" class="nav-link ms-3 my-1" ngbScrollSpyItem="nested-1-5" parent="nested-1">Utilizando Linux no Macbook Pro 2009</a>
+                            <a role="button" class="nav-link ms-3 my-1" ngbScrollSpyItem="nested-1-6" parent="nested-1">Transformando o Positivo Sim+ em um servidor</a>
+                            <a role="button" class="nav-link ms-3 my-1" ngbScrollSpyItem="nested-1-7" parent="nested-1">CasaOS</a>
+                            <a role="button" class="nav-link ms-3 my-1" ngbScrollSpyItem="nested-1-8" parent="nested-1">SSH (Secure Shell)</a>
+                            <a role="button" class="nav-link ms-3 my-1" ngbScrollSpyItem="nested-1-9" parent="nested-1">VSCode Server</a>
+                            <a role="button" class="nav-link ms-3 my-1" ngbScrollSpyItem="nested-1-10" parent="nested-1">Docker</a>
+                        </nav>
+
+                        <a role="button" class="nav-link" ngbScrollSpyItem="nested-2">Participação na Maratona de Programação da SBC</a>
+                                <a role="button" class="nav-link ms-3 my-1" ngbScrollSpyItem="nested-2-1" parent="nested-3">O Inicio</a>
+                                <a role="button" class="nav-link ms-3 my-1" ngbScrollSpyItem="nested-2-2" parent="nested-3">Palestras</a>
+                                <a role="button" class="nav-link ms-3 my-1" ngbScrollSpyItem="nested-2-2" parent="nested-3">A Prova</a>
+
+                        
+                        <!--
+                        <a role="button" class="nav-link" ngbScrollSpyItem="nested-3">Item 3</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a role="button" class="nav-link ms-3 my-1" ngbScrollSpyItem="nested-3-1" parent="nested-3">Item 3-1</a>
+                            <a role="button" class="nav-link ms-3 my-1" ngbScrollSpyItem="nested-3-2" parent="nested-3">Item 3-2</a>
+                        </nav>
+                        -->
+                    </nav>
+                </nav>
+            </div>
+
+
+            <div class="col-8">
+                <div ngbScrollSpy #spy="ngbScrollSpy" rootMargin="16px" class="bg-light p-3 rounded-2 mb-3" style="height: 20%">
+                    <h4 ngbScrollSpyFragment="nested-1">Superando Limitações: Minha Jornada com um Macbook Pro 2009</h4>
+                    <h5>Publicado em: 26/10/2023</h5>
+                    <br>
+                    <p>
+                        Olá, tudo bem? Gostaria de compartilhar com vocês uma experiência que tem sido ao mesmo tempo desafiadora
+                        e gratificante: utilizar um MacBook Pro 2009 como minha máquina principal. Comprei este laptop usado há
+                        alguns anos e ele se provou um verdadeiro guerreiro, mas as limitações começaram a se tornar cada vez mais
+                        evidentes com o passar do tempo. Aqui estão algumas das dificuldades que enfrentei e como as contornei,
+                        além dos reparos e upgrades necessários para manter o computador funcional.
+                    </p>
+                    <h5 ngbScrollSpyFragment="nested-1-1">Para contextualizar:</h5>
+                    <p>
+                        Para efeito de contextualização, esse Mac não recebe atualizações oficiais da Apple desde 2011 (Mac OS Lion),
+                        pois ele fez parte do início da migração de processadores PowerPC para Intel. Nesse período, a Apple utilizava
+                        placas de vídeo da NVIDIA em seus produtos. Em 2009, as placas de vídeo integradas a esses PCs possuíam pouca
+                        memória dedicada, o que as tornaria obsoletas para os padrões atuais. Em 2012, a Apple começou a migrar suas 
+                        placas gráficas para AMD, utilizando a API Metal para aceleração gráfica, uma tecnologia compatível apenas com as placas
+                        de vídeo AMD. Isso é mais um motivo para considerarmos essa placa de vídeo obsoleta ao falarmos do sistema operacional macOS.
+                        Somado a isso seu processador, um core 2duo de primeira geração, que era um processador incrível para sua época mas que está indiscutivelmente d
+                        efasado, tanto por falta de recursos, como por exemplo a capacidade de virtualização, a falta de cache L2/L3… podemos até estabelecer que esse processador 
+                        estaria defasado já em 2012, onde um core i5 poderia performar com o dobro de sua velocidade e eficiência.
+                    </p>
+                    <h5 ngbScrollSpyFragment="nested-1-2">Patch de atualização da comunidade:</h5>
+                    <p>
+                        Quando comprei esse PC, ele ainda utilizava o MacOS-XLion, mas já era um sistema desatualizado há pelo menos 7 anos. Meu objetivo inicial era
+                        utilizá-lo de forma básica, para editar documentos, ver vídeos, ouvir músicas e não depender do meu smartphone da época o tempo todo. Para esse fim,
+                        eu acreditava que o MacOS Lion seria funcional. Entretanto, por ser um sistema obsoleto e inseguro, percebi que não era possível assistir a vídeos além 
+                        dos DVDs da minha coleção, pois o navegador desatualizado não permitia acessar YouTube e Prime Video.
+                    </p>
+                    <p>
+                        Pesquisei opções e fui levado a um mundo incrível: a comunidade de pessoas que dedicam seu tempo a tornar Macs antigos em computadores funcionais para os dias de hoje.
+                    </p>
+                    <h5 ngbScrollSpyFragment="nested-1-3">MacOS Catalina Patch:</h5>
+                    <p>
+                        Em um primeiro momento, fiz uso de um dos patches mais simples e fantásticos da época. Era fácil de configurar e instalar,
+                        e deu uma sobrevida incrível ao meu PC, permitindo até que eu utilizasse o GarageBand para produzir minhas músicas durante a pandemia, 
+                        além de assistir a filmes e vídeos por streaming, servindo como uma forma eficaz de distração. No entanto, o sistema já apresentava limitações
+                        relacionadas à performance e compatibilidade com aplicativos. A edição de vídeo e foto, assim como os aplicativos de reprodução de arquivos de mídia nativos,
+                        não eram possíveis de utilizar, pois nada que precisasse da API Metal funcionava corretamente. Mesmo os aplicativos que não a exigiam, não funcionavam perfeitamente 
+                        como em um MacBook atual. Embora o patch seja bom e ajude bastante, ele é apenas uma adaptação e vem com suas limitações.
+                    </p>
+                    
+                    <h4 ngbScrollSpyFragment="nested-1-4">OpenCore LegacyPatch:</h4>
+                    <p>
+                        Com o passar dos anos, o MacOS Catalina também ficou defasado, perdendo suporte a inúmeros aplicativos, o que me trouxe a necessidade de migrar para o OpenCore Patch, que trouxe suporte a versões posteriores do macOS para o meu PC. Entretanto, a cada atualização, mais desempenho do processador era consumido, o que tornava a experiência do usuário geral para atividades simples, travada e ineficiente, em meu caso.
+                    </p>
+                    <p>
+                        Os patches são incríveis em seu objetivo de dar sobrevida a equipamentos ultrapassados. Acredito que, em PCs posteriores a 2012, a experiência com patches é superior de inúmeras maneiras. Obviamente, não será perfeita, contudo, a recomendo, especialmente para quem já possui um Mac que não recebe suporte a atualizações. No meu caso em específico, o uso de patches desse tipo e o trabalho que tive para aprender sobre como resolver problemas me ensinaram muito. Isso ficou claro durante meu segundo semestre na FATEC, especialmente na matéria de Sistemas Operacionais e no Laboratório de Hardware.
+                    </p>
+                    <p>
+                        Uma das peculiaridades do meu MacOs é o tipo de partição de boot, que é EFI. Com o patch, essa partição é adaptada para UEFI. A principal diferença entre EFI e UEFI é que a última é uma versão mais moderna e avançada, oferecendo uma melhor compatibilidade e suporte. Essa adaptação foi fundamental para melhorar o desempenho e a funcionalidade do meu Mac, permitindo que ele pudesse rodar versões mais recentes de forma mais eficaz. Pude entender melhor sua arquitetura e função, o que poderá ser muito útil no futuro; principalmente no estudo de sistemas operacionais e reparo em sistemas de forma geral.
+                    </p>
+
+                    <h4 ngbScrollSpyFragment="nested-1-5">Utilizando Linux no Macbook Pro 2009:</h4>
+                    <p>
+                        Como estudante da área de tecnologia com poucos recursos financeiros e muita criatividade, acredito que era inevitável o momento em que eu entraria no mundo Linux. Em um primeiro momento, tentei utilizar o Ubuntu como distribuição, porém não obtive sucesso devido à falta de drivers de compatibilidade com a tela (o controle de brilho e sensor da tampa não operavam, já que é um pc com arquitetura antiga). Em seguida, testei o kali Linux, mas acabei não utilizando dado a falta de recursos de acessibilidade e por sentir que não seria o melhor sistema para meu propósito, já que possuo baixa visão e preciso da lupa. Cheguei à conclusão de que a melhor distribuição Linux para o meu PC mais antigo seria o Linux Mint. Instalei o GNOME nele, utilizando-o como gerenciador de janelas. Atualmente, estou experimentando o sistema e, embora haja problemas com travamentos ocasionais, o sistema tem rodado de forma inacreditavelmente boa.
+                    </p>
+
+                    <p>
+                        Apesar das dificuldades, este MacBook Pro 2009 continua sendo uma máquina exemplar com sua construção robusta que permitiu com que ele sobrevivesse ao teste do tempo, com apenas alguns reparos e upgrades. Embora não seja ideal para tarefas intensivas e modernas, ele ainda cumpre bem funções básicas e se mantém como um testemunho da durabilidade dos produtos da Apple. Além disso, o uso do Positivo como servidor tem sido uma solução prática para expandir minha capacidade de processamento e gerenciamento de aplicativos.
+                    </p>
+
+                    <p>
+                        Apesar de todas as dificuldades relacionadas a desempenho desse Macbook pro 2009, uma coisa inegável e a qualidade inacreditável de construção, desde 2009 até agora e ele segue firme, mesmo com marcas de uso, é louco pensar que um computador de 2009 pode ser usado por um estudante mesmo nos dias de hoje, Mesmo que para programação, algo que é consideravelmente pesado. E inclusive tem pontos a serem elogiados, como seu teclado extremamente confortável, e suas conexões extremamente estáveis. Além de seu visual incrível.
+                    </p>
+
+                    <p>
+                        Eu realmente desejo poder investir em um novo computador em breve e evoluir aprendendo sobre novas tecnologias, se possível em um Mac-M1 ou posterior, pois sinto que a Apple está à frente em muitos aspectos do ponto de vista de qualidade de construção e otimização de sistema. Todavia, além disso, sou realmente grato pela minha experiência com esse MacBook de 2009, pois suas limitações me ensinaram muito para poder contorná-las, o que de certa forma me aproxima de ser um programador. Do meu ponto de vista, o objetivo da programação e da TI como um todo é criar soluções simples para problemas complexos.
+                    </p>
+
+                    <p>
+                        Mesmo após instalar o Linux em meu Mac , percebi que ele ainda não estava sendo tão eficiente para executar algumas tarefas. Buscando soluções para melhorar minhas condições de estudo e trabalho, tive a ideia de ressuscitar um outro notebook muito fraco e antigo (mas mais novo que o Mac), que eu tinha guardado em casa: um Positivo Sim+ Intel Atom D525, com 2GB de RAM e um HD de 320 GB. Em um primeiro momento não sabia suas especificações técnicas porém sabia que ele era bem lento pois sua qualidade de construção demonstra que era um notebook básico de entrada que tinha sido aposentado provavelmente por este motivo, esse notebook não seria o ideal;nem para tarefas básicas pois além de possuir pouca memória ram, tinha seu processador projetado para outros fins que não um computador de uso doméstico, entretanto acreditei que poderia dar uma sobrevida a ele com uma aplicação leve e que serviria perfeitamente para meu objetivo.
+                    </p>
+
+                    <h4 ngbScrollSpyFragment="nested-1-6">Transformando  o Positivo Sim+ em um servidor</h4>
+                    <p>
+                        Mesmo após instalar o Linux em meu Mac , percebi que ele ainda não estava sendo tão eficiente para executar algumas tarefas. Buscando soluções para melhorar minhas condições de estudo e trabalho, tive a ideia de ressuscitar um outro notebook muito fraco e antigo (mas mais novo que o Mac), que eu tinha guardado em casa: um Positivo Sim+ Intel Atom D525, com 2GB de RAM e um HD de 320 GB. Em um primeiro momento não sabia suas especificações técnicas porém sabia que ele era bem lento pois sua qualidade de construção demonstra que era um notebook básico de entrada que tinha sido aposentado provavelmente por este motivo, esse notebook não seria o ideal;nem para tarefas básicas pois além de possuir pouca memória ram, tinha seu processador projetado para outros fins que não um computador de uso doméstico, entretanto acreditei que poderia dar uma sobrevida a ele com uma aplicação leve e que serviria perfeitamente para meu objetivo.
+                    </p>
+
+                    <p>
+                        Decidi transformar esse Positivo em um servidor Ubunto para armazenar arquivos e rodar aplicações básicas, as acessando por SSH, VNC e pelo navegador. Essa solução me permitiu economizar processamento e armazenamento no Mac, o tornando mais eficiente para as tarefas que eu precisava realizar. Nessa ideia, descobri a existência de um projeto incrível chamado CasaOS.
+                    </p>
+
+                    <h4 ngbScrollSpyFragment="nested-1-7">CasaOS:</h4>
+                    <p>
+                        CasaOS é uma plataforma de código aberto que facilita a administração de dispositivos domésticos e servidores pessoais. Ele fornece uma interface de usuário intuitiva para gerenciar e monitorar aplicativos e serviços em um servidor. Com o CasaOS, pude configurar e gerenciar meu servidor de maneira eficiente, explorando ainda mais minhas habilidades em infraestrutura de rede.
+                    </p>
+                    <h4 ngbScrollSpyFragment="nested-1-8">SSH (Secure Shell):</h4>
+                    <p>
+                        O SSH é um protocolo de rede que permite a comunicação segura entre computadores, permitindo que você se conecte a outro dispositivo e execute comandos como se estivesse trabalhando diretamente nele. Utilizar o SSH com meu servidor Positivo me permitiu acessar e controlar remotamente o sistema, ampliando minhas possibilidades de gerenciamento e automação.
+                    </p>
+                    <h4 ngbScrollSpyFragment="nested-1-9">VSCode Server:</h4>
+                    <p>
+                        O VSCode Server é uma versão do Visual Studio Code que roda em um servidor e pode ser acessado via navegador. Isso me permite editar código remotamente sem precisar instalar um editor pesado no meu Mac, economizando recursos do sistema. Através do VSCode Server, posso desenvolver meus projetos de qualquer lugar, utilizando apenas uma conexão SSH.
+                    </p>
+                    <h4 ngbScrollSpyFragment="nested-1-10">Docker:</h4>
+                
+                    <p>
+                        Outra descoberta foi a utilização do Docker, uma plataforma que permite criar, implantar e executar aplicações em contêineres. Com ele, posso rodar várias aplicações isoladas no meu servidor Positivo, experimentando novas tecnologias e aprendendo sobre gerenciamento de contêineres.
+                    </p>
+
+                    <p>
+                        Essa experiência tem sido extremamente enriquecedora. Cada dia é uma oportunidade de aprender sobre as melhores formas de resolver problemas e gerenciar um servidor, assim como os que vemos no mundo corporativo. Estou descobrindo novas possibilidades e desenvolvendo habilidades valiosas que, sem dúvida, irão me ajudar em minha carreira na área de tecnologia.
+                    </p>
+
+                    <p>
+                        Ao refletir sobre minha jornada com o MacBook Pro 2009, percebo que, apesar das limitações e desafios enfrentados, cada obstáculo superado me proporcionou um aprendizado significativo. A instalação do Linux trouxe melhorias, mas não resolveu completamente os problemas de desempenho. Foi então que decidi transformar um antigo e fraco notebook Positivo em um servidor, o que se mostrou uma solução prática e eficiente para minhas necessidades de armazenamento e processamento.
+                    </p>
+
+                    <p>
+                        A descoberta e implementação do CasaOS, junto com o uso do SSH, VSCode Server e Docker, ampliaram minha compreensão sobre infraestrutura de rede e gestão de servidores. Essas ferramentas não apenas otimizaram meu fluxo de trabalho, contudo também me proporcionaram um ambiente de aprendizado constante, me preparando melhor para os desafios do mundo corporativo.
+                    </p>
+
+                    <p>
+                        Essa experiência reforçou a importância da criatividade e da adaptabilidade, especialmente quando os recursos são limitados. Transformar um notebook obsoleto em um servidor funcional foi uma demonstração de como soluções simples podem resolver problemas complexos. Além disso, a durabilidade e a qualidade de construção do MacBook Pro 2009 são testemunhos da robustez dos produtos da Apple, destacando que, mesmo com equipamentos antigos, é possível realizar tarefas significativas e manter-se produtivo.
+                    </p>
+
+                    <p>
+                        Minha aspiração de adquirir um novo computador, idealmente um Mac com processador M1 ou posterior, permanece, mesmo que grato pelo que aprendi com meu MacBook Pro 2009. Suas limitações me ensinaram a encontrar soluções criativas e a aproveitar ao máximo os recursos disponíveis; habilidades essenciais para qualquer programador.
+                    </p>
+
+                    <p>
+                        Em última análise, minha experiência com esses dispositivos me aproximou do objetivo da programação e da TI: criar soluções simples e eficazes para problemas complexos. E, como estudante de Análise e Desenvolvimento de Sistemas, essas lições são valiosas, não apenas para minha carreira, mas também para meu crescimento pessoal e profissional!
+                    </p>
+                    <br>
+                    <h3>Créditos</h3>
+                    <ul>
+                        <li>Escritor: Calebe Araujo - <a href="https://linkedin.com/in/calebe-dev" target="_blank">Linkedin</a></li>
+                        <li>Revisora: Isabella Lima - <a href="https://linkedin.com/in//isabella-lima-0b5793242/" target="_blank">Linkedin</a></li>
+                    </ul>
+                    <br>
+                    <div class="share-buttons">
+                        <button class="share-btn" data-platform="linkedin">Compartilhar no Linkedin</button>
+                        <button class="share-btn" data-platform="twitter">Compartilhar no X</button>
+                        <button class="share-btn" data-platform="facebook">Compartilhar no Facebook</button>
+                      </div>
+                    <br>
+                    
+                    <h4 ngbScrollSpyFragment="nested-2">Participação na Maratona de Programação da SBC</h4>
+                        <p>Sempre tive para mim que, como um jovem que está construindo sua carreira acadêmica e profissional, é essencial buscar desafios e projetos para me testar, estudar, aprimorar e me destacar entre meus colegas em um mercado extremamente competitivo.</p>
+                        <p>Lembro que em uma das minhas primeiras aulas na FATEC, nos foram mencionadas as competições de programação. Naquele momento, pensei: "Acho que nunca vou ter nível para participar de algo assim!". No entanto, o mundo tende a nos surpreender e, com meus estudos e um pouco de sorte, tive a oportunidade de participar da competição organizada pela Sociedade Brasileira de Computação (SBC) em sua primeira fase que aconteceu no dia 31 de agosto de 2024, na Faculdade de Tecnologia da cidade de Sorocaba.</p>
+                        <p>Antes de falar sobre a competição, preciso agradecer primeiramente ao meu professor Glauco Todesco, que possibilitou a participação da minha equipe, os "Apóstolos do Glauco". Também preciso agradecer aos meus companheiros de equipe — vocês foram demais!</p>
+                    
+                    <h5 ngbScrollSpyFragment="nested-2-1">O Inicio:</h5>
+                    <p>
+                        É correto afirmar que os desafios para essa competição surgiram desde o momento em que tive a oportunidade de participar. Embora minha equipe seja muito unida e não houve cobranças sobre desempenho, uma competição sempre gera certa autocrítica, que é inevitável ao participar de atividades em grupo, pois um erro pode impactar o resultado dos seus companheiros. Desde o momento então, estabeleci uma rotina de treinos relacionados aos desafios propostos pela competição. Infelizmente, não pude dedicar o tempo que gostaria a essas atividades de aprimoramento, pois minha rotina já possui obrigações às quais dedico boa parte do meu tempo. Porém, abrir mão de tempo livre e horas de sono semanais em prol de um objetivo é uma escolha justa se queremos fazer a diferença.
+                    </p>
+                    <p>
+                        As etapas para a participação dessa competição oficialmente se iniciaram uma semana antes, quando pudemos fazer um simulado controlado sobre as condições da prova na faculdade que sediou a competição. Foi um dia agradável, onde pudemos conhecer um pouco das instalações da FATEC Sorocaba, e tive meu primeiro contato com o ambiente onde submetemos os códigos durante a aplicação dos desafios. Essa experiência foi de extrema ajuda para entender melhor as condições em que iríamos realizar os desafios. Embora eu acredite que não tenha influenciado muito em nosso resultado, já que meu grupo possui certa experiência com o ambiente por causa de outras competições, foi um aprendizado valioso para me preparar para as próximas edições.
+                    </p>
+                    <p>
+                        No dia da competição, os preparativos começaram cedo, pois eu e meus companheiros vivemos em cidades próximas, mas em pontos distantes entre si. Fomos juntos para a cidade de Sorocaba para garantir que não houvesse atrasos em nossa participação.
+                    </p>
+                    <p>
+                        As atividades relacionadas à competição começaram com um belo café da manhã, proporcionado pelos funcionários da faculdade juntamente com o corpo de auxiliares da competição (os "Melancias" — apelido carinhoso dado pela cor do uniforme que usavam). Todos foram extremamente gentis e prestativos, nos fazendo sentir em casa. Logo depois, recebemos nossos kits com brindes dos patrocinadores do evento, a camiseta da competição e nossa credencial. Em seguida, tiramos as fotos oficiais da competição e em seguida tivemos um aquecimento com desafios de edições anteriores para que todos pudessem entrar no clima da competição.
+                    </p>
+                    
+                    <h5 ngbScrollSpyFragment="nested-2-2">Paléstras:</h5>
+                    <p>
+                        Logo após as atividades, tivemos três palestras extremamente enriquecedoras com parceiros do evento:
+                    </p>
+                    <p>
+                        Tegra: Uma empresa do interior de São Paulo especializada no desenvolvimento de software, que tem sido cada vez mais reconhecida pela qualidade de seus produtos e profissionais contratados. Com um portfólio de clientes impressionante, incluindo Carrefour e Sebrae, a empresa foi formada por dois ex-alunos da FATEC Sorocaba.
+                    </p>
+                    <p>
+                        MeuCliente: Uma startup que atua no segmento de varejo e trade marketing, ajudando varejistas de todo o Brasil a melhorar seu relacionamento com a indústria, obter maior captação de verbas e profissionalizar um setor ainda pouco explorado. Com tecnologia e uma equipe dedicada, ajudam varejos de todos os portes e localidades a crescer e aumentar seus resultados.
+                    </p>
+                    <p>
+                        TRACTIAN: Focada na melhoria da gestão da manutenção industrial por meio do uso de ciência de dados e monitoramento de sensores, a TRACTIAN reduz o tempo de inatividade das máquinas e evita quebras inesperadas. Com seu sistema, as equipes de manutenção conseguem obter um diagnóstico preciso sobre a condição de suas máquinas, agindo antes que falhas aconteçam. A empresa é inovadora, trabalha com tecnologia de ponta e possui reconhecimento nacional e internacional.
+                    </p>
+                    <p>
+                        Durante essas palestras, pudemos ouvir um pouco sobre os nichos de mercado de cada uma dessas empresas, suas histórias e como começaram, além de fazer perguntas sobre tecnologia, mercado e perfis de profissionais procurados pela indústria. Definitivamente, foi incrível poder ouvir e adquirir conhecimento sobre nichos que eu não conhecia, sobre tecnologias incríveis, e, principalmente, que aceitar desafios é um passo na direção certa para quem deseja crescer no mundo da tecnologia.
+                    </p>
+
+                    <h5 ngbScrollSpyFragment="nested-2-3">A Prova:</h5>
+                    <p>
+                        Após as palestras, tivemos um momento para almoçar e, logo em seguida, deu-se início à competição. O clima do começo, com a sirene marcando o momento em que podemos iniciar a ler os problemas e usar o sistema no computador da competição, é tenso e divertido. No sistema, podemos ver o progresso de nossos competidores em tempo real; a cada questão acertada, um balão colorido é amarrado à frente da equipe, o que aumenta ainda mais a sensação de competitividade. Cada equipe, formada por três participantes, tem à sua frente o computador, os cadernos de questões e algumas folhas para rascunho. O sistema da competição não permite o uso de nenhum periférico externo à máquina, como mouse e teclado, então você fica limitado ao uso do PC disponibilizado. As perguntas são extremamente difíceis e exigem muito de todos os participantes do grupo, envolvendo diversas áreas de conhecimento, como estrutura de dados, alocação de memória e bibliotecas da linguagem de programação escolhida. Contudo, é justo estabelecer que dois dos principais desafios não estão relacionados diretamente à tecnologia, mas sim à interpretação das questões e à gestão de tempo. Mesmo que pareça haver bastante tempo para resolver os problemas, na realidade, as quase seis horas de prova parecem voar, tornando o tempo um recurso valioso e extremamente limitado.
+                    </p>
+                    <p>
+                        Logo após a prova, fomos recebidos por uma mesa de salgadinhos deliciosos, refrigerantes e um clima extremamente familiar, divertido e acolhedor. Tivemos um resumo do resultado geral da competição, as colocações de cada equipe e as premiações para os primeiros colocados. Tudo foi extremamente divertido, e posso dizer com toda certeza que as comemorações com os grupos encerraram a noite com chave de ouro.
+                    </p>
+                    <p>
+                        Posso afirmar com toda certeza que esse tipo de evento, mesmo sendo desgastante fisicamente e mentalmente, é extremamente enriquecedor e divertido. É uma experiência que lembrarei com carinho como a primeira de muitas participações em eventos desse tipo. Sendo assim, se você está entrando no mundo da programação e quer fazer parte de algo semelhante, posso assegurar que, com preparo e paciência, não há como se arrepender. Obrigado por ler até aqui e até o próximo artigo!
+                    </p>
+                    <br>
+                    <h3>Créditos</h3>
+                    <ul>
+                        <li>Escritor: Calebe Araujo - <a href="https://linkedin.com/in/calebe-dev" target="_blank">Linkedin</a></li>
+                        <li>Revisora: Isabella Lima - <a href="https://linkedin.com/in//isabella-lima-0b5793242/" target="_blank">Linkedin</a></li>
+                    </ul>
+                    <br>
+                    <div class="share-buttons">
+                        <button class="share-btn" data-platform="linkedin">Compartilhar no Linkedin</button>
+                        <button class="share-btn" data-platform="twitter">Compartilhar no X</button>
+                        <button class="share-btn" data-platform="facebook">Compartilhar no Facebook</button>
+                    </div>
+
+                    <!--
+                <h4 ngbScrollSpyFragment="nested-3">Item 3</h4>
+                <p>
+                    Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth
+                    master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro
+                    keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat
+                    salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.
+                </p>
+                <h5 ngbScrollSpyFragment="nested-3-1">Item 3-1</h5>
+                <p>
+                    Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth
+                    master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro
+                    keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat
+                    salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.
+                </p>
+                <h5 ngbScrollSpyFragment="nested-3-2">Item 3-2</h5>
+                <p>
+                    Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth
+                    master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro
+                    keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat
+                    salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.
+                </p>
+            </div
+                    -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
